@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  background: #e1dcc5;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -43,29 +47,29 @@ nav .right {
 .container {
   width: 1000px;
   margin: 0 auto;
-  background-color: #e1dcc5;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 10px;
-  background-color: #ffffff;
+  padding: 15px 15px;
 }
 
 .logo a,
 .book a {
   text-decoration: none;
-  color: black;
+  color: rgb(16, 16, 16);
   font-weight: 300;
 }
 
 .header select {
   border: none;
   width: 150px;
+  font-weight: 300;
   font-size: 14px;
   padding: 10px 15px;
+  background: none;
 }
 
 option {
@@ -84,6 +88,9 @@ option {
 .search #s-box {
   width: 100%;
   padding: 12px 10px;
+  background-color: #e2e2e2;
+  border: none;
+  outline: none;
 }
 
 .search #s-icon {
@@ -92,13 +99,44 @@ option {
   right: 10px;
 }
 
-.user {
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid black;
-  padding: 0 20px;
+#login a,
+#sign-up {
+  text-decoration: none;
+  color: rgb(16, 16, 16);
+  font-weight: 300;
+}
+
+#sign-up {
+  background-color: #0376b8;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 main {
-  background-color: mintcream;
+  border: none;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .one h2 {
+  font-weight: 500;
+}
+
+.one .row {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.col {
+  display: flex;
+  gap: 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px 10px;
+  background-color: #fcfbf7;
 }
