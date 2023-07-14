@@ -4,6 +4,101 @@
   padding: 0;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 160px;
+  background-color: #333333;
+}
+
+nav .left {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.left i {
+  margin-top: 3px;
+}
+
+.left:hover {
+  color: #b3aeae;
+}
+
+nav .right {
+  color: #ffffff;
+}
+
+.right h3 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.right h3 a:hover {
+  color: #b3aeae;
+}
+
 .container {
-    width: 900px;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #e1dcc5;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  background-color: #ffffff;
+}
+
+.logo a,
+.book a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+
+.header select {
+  border: none;
+  width: 150px;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+option {
+  color: #ffffff;
+  background-color: #333333;
+}
+
+.search {
+  border: 1px solid black;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.search #s-box {
+  width: 100%;
+  padding: 12px 10px;
+}
+
+.search #s-icon {
+  position: absolute;
+  top: 12.5px;
+  right: 10px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 0 20px;
+}
+
+main {
+  background-color: mintcream;
 }
