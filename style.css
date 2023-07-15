@@ -88,7 +88,7 @@ option {
 .search #s-box {
   width: 100%;
   padding: 12px 10px;
-  background-color: #e2e2e2;
+  background-color: #ffffff;
   border: none;
   outline: none;
 }
@@ -115,21 +115,29 @@ option {
 
 main {
   border: none;
-  background: #ffffff;
   border-radius: 5px;
   padding: 20px 15px;
   display: flex;
   flex-direction: column;
+  background: #ffffff;
 }
+
+/* .one,
+.two,
+.three {
+  width: 100%;
+} */
 
 main .one h2 {
   font-weight: 500;
+  color: #647a99;
 }
 
 .one .row {
   display: flex;
   gap: 10px;
   margin-top: 15px;
+  margin-bottom: 30px;
 }
 
 .col {
