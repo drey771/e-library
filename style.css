@@ -148,3 +148,29 @@ main .one h2 {
   padding: 20px 10px;
   background-color: #fcfbf7;
 }
+
+.rows {
+  margin-top: 10px;
+  background-color: #e1dcc5;
+  padding: 15px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.books button {
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0376b8;
+  color: #ffffff;
+}
